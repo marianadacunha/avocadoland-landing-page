@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #FBEFF3;
+    background-color: #ffffff;
 }
 
 #header-img {
@@ -21,14 +21,14 @@ body {
     font-family: 'Source Code Pro', monospace;
     font-size: 30px;
     font-weight: 900;
-    color:#FBEFF3;
+    color:#ffffff;
     margin: 0;
     padding: 10px;
 }
 
 #header {
     position: fixed;
-    background-color:#DF7C9D;
+    background-color:#83A858;
     padding-left: 20px;
     padding-right: 20px;
     width: 100%;
@@ -57,13 +57,13 @@ li {
 
 a {
     text-decoration: none;
-    color:#FBEFF3;
+    color:#ffffff;
     font-family: 'Kanit';
     font-weight: 300;
 }
 
 a:hover {
-    color: #EBADC2;
+    color: #5C8126;
     transition: 0.4s;
 }
 
@@ -95,7 +95,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    border: 1px solid #DF7C9D;
+    border: 1px solid #83A858;
     border-radius: 20px;
     margin: 40px;
     padding: 20px;
@@ -107,13 +107,13 @@ a:hover {
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    background-color:#DF7C9D;
+    background-color:#83A858;
     width: 100%;
     margin: 0;
   }
 
   .price {
-    color:#DF7C9D;
+    color:#83A858;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 17px;
@@ -127,7 +127,7 @@ a:hover {
   }
 
   .btn {
-    background-color:#DF7C9D;
+    background-color:#83A858;
     color:#ffffff;
     font-family: 'Open Sans';
     font-weight: 400;
@@ -140,4 +140,53 @@ a:hover {
   .btn:hover {
     background-color:rgb(214, 83, 127);
     transition: 0.4s;
+  }
+
+  #features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .featTitle {
+    color:#5C8126;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .featDescription {
+    color:rgb(158, 158, 158);
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #formTitle {
+    color:rgb(158, 158, 158);
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+  }
+
+  #email {
+      border: none;
+      background-color:rgb(158, 158, 158);
+  }
+
+  #submit {
+    background-color:#5C8126;
+    color:#ffffff;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 17px;
+    border-style: none;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
   }
