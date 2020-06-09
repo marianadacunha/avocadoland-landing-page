@@ -7,6 +7,7 @@ body {
     background-color: #ffffff;
 }
 
+/* Navigation Bar */
 #header-img {
     display: flex;
     justify-content: flex-start;
@@ -67,6 +68,7 @@ a:hover {
     transition: 0.4s;
 }
 
+/* Banner Photo */
 .banner {
     width: 100%;
 }
@@ -101,7 +103,7 @@ a:hover {
     padding: 20px;
   }
 
-  .type {
+.type {
     color:#ffffff;
     font-family: 'Kanit';
     font-weight: 400;
@@ -112,21 +114,21 @@ a:hover {
     margin: 0;
   }
 
-  .price {
+.price {
     color:#83A858;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 17px;
   }
 
-  .description {
+.description {
     color:rgb(158, 158, 158);
     font-family: 'Open Sans';
     font-weight: 300;
     font-size: 16px;
   }
 
-  .btn {
+.btn {
     background-color:#83A858;
     color:#ffffff;
     font-family: 'Open Sans';
@@ -137,56 +139,80 @@ a:hover {
     border-radius: 5px;
   }
 
-  .btn:hover {
+.btn:hover {
     background-color:rgb(214, 83, 127);
     transition: 0.4s;
   }
 
-  #features {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+/* Features Section */
+#features {
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
 
-  .featTitle {
-    color:#5C8126;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 700;
-    font-size: 20px;
-  }
+#featType {
+  display: flex;
+  flex-direction: column;
+}
 
-  .featDescription {
-    color:rgb(158, 158, 158);
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 16px;
-  }
+#premiumMaterials, #fastShipping, #qualityAssurance {
+  display: flex;
+  flex-direction: row;
+}
 
-  #form {
-    display: flex;
-    flex-direction: column;
-  }
+.icon {
+  width: 5vw;
+}
 
-  #formTitle {
-    color:rgb(158, 158, 158);
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 16px;
-  }
+#featIcon {
+  padding: 25px;
+  margin-right: 25px;
+}
 
-  #email {
-      border: none;
-      background-color:rgb(158, 158, 158);
-  }
+.featTitle {
+  color:#5C8126;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 700;
+  font-size: 20px;
+}
 
-  #submit {
-    background-color:#5C8126;
-    color:#ffffff;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 17px;
-    border-style: none;
-    padding: 5px 15px 5px 15px;
-    border-radius: 5px;
-  }
+.featDescription {
+  color:rgb(158, 158, 158);
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* E-mail Form */
+#form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+#email {
+  border: none;
+  border-radius: 5px;
+  background-color:#BCE295;
+  display: block;
+  margin: auto;
+  width: 20vw;
+  padding: 15px;
+  width: 40vw;
+  outline: none;
+}
+
+::placeholder {
+  color: #ffffff;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+  width: 10vw;
+  padding: 10px;
+  margin-top: 30px;
+}

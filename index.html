@@ -9,6 +9,7 @@
 </head>
 <body>
     <div id="all">
+<!--- Start of Navigation Bar --->
         <header id="header">
             <div id="header-img">
                 <h1 class="logo">Avocadoland</h1>
@@ -21,42 +22,67 @@
                     </nav>
             </div>
         </header>
-        
-        <div>
-            <img class="banner" alt="Avocado" src="img/banner_green.jpg">
-        </div>
+<!--- End of Navigation Bar --->
 
+<!--- Start of Banner Photo --->
+        <div>
+            <img class="banner" alt="Avocado Banner" src="img/banner_green.jpg">
+        </div>
+<!--- End of Banner Photo --->
+
+<!--- Start of E-mail Form --->
         <div>
             <form id="form">
-                <label id="formTitle"> Don't miss a thing!</label>
+                <label class="titleSection"> Don't miss a thing!</label>
                 <input id="email" type="email" placeholder="Enter your e-mail here">
-                <button type="submit" id="submit" class="submit-button">Get started</button>
+                <button type="submit" id="submit" class="btn">Get started</button>
             </form>
-
         </div>
+<!--- End of E-Mail Form --->
 
+<!--- Start of Features Section --->
         <div id="features">
-            <div id="featType">
-                <h2 class="featTitle">Premium Materials</h2>
-                <p class="featDescription">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            <div id="premiumMaterials">
+                <div id="featIcon">
+                    <img class="icon" alt="Avocado" src="img/icon1.png">
+                </div>
+                <div id="featType">
+                    <h2 class="featTitle">Premium Materials</h2>
+                    <p class="featDescription">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+        </div>  
+
+            <div id="fastShipping">
+                <div id="featIcon">
+                    <img class="icon" alt="Shipping" src="img/icon2.png">
+                </div>
+                <div id="featType">
+                    <h2 class="featTitle">Fast Shipping</h2>
+                    <p class="featDescription">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
             </div>
-            <div id="featType">
-                <h2 class="featTitle">Fast Shipping</h2>
-                <p class="featDescription">We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-            </div>
-            <div id="featType">
-                <h2 class="featTitle">Quality Assurance</h2>
-                <p class="featDescription">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+
+            <div id="qualityAssurance">
+                <div id="featIcon">
+                    <img class="icon" alt="Quality" src="img/icon3.png">
+                </div>  
+                <div id="featType">
+                    <h2 class="featTitle">Quality Assurance</h2>
+                    <p class="featDescription">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
             </div>
         </div>
+<!--- End of Features Section --->
 
-
+<!--- Start of Video Section --->
         <div id="how-it-works">
             <h1 class="titleSection">How it works?</h1>
             <iframe id="video" width="1000" height="600" src="https://www.youtube.com/embed/tnT78O8wBxk" frameborder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+<!--- End of Video Section --->
 
+<!--- Start of Price Section --->
         <div id="pricing">
             <div class="product" id="small">
               <div class="type">Small Avocado</div>
@@ -80,7 +106,8 @@
               <button class="btn">Select</button>
             </div>
           </section>
-          
+<!--- End of Price Section --->
+
     </div>
 </body>
 </html>
