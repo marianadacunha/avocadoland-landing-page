@@ -73,84 +73,44 @@ a:hover {
     width: 100%;
 }
 
-.titleSection {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 30px;
-    text-align: center;
-    color:rgb(158, 158, 158);
-    padding: 20px;
+/* E-mail Form */
+#form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 }
 
-#video {
-    display: block;
-    margin: auto;
-    padding-bottom: 30px;
+#email {
+  border: none;
+  border-radius: 5px;
+  background-color:#BCE295;
+  display: block;
+  margin: auto;
+  width: 20vw;
+  padding: 15px;
+  width: 40vw;
+  outline: none;
 }
 
-#pricing {
-    display: flex;
-    flex-direction: row;
+::placeholder {
+  color: #ffffff;
 }
 
-.product {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    border: 1px solid #83A858;
-    border-radius: 20px;
-    margin: 40px;
-    padding: 20px;
-  }
-
-.type {
-    color:#ffffff;
-    font-family: 'Kanit';
-    font-weight: 400;
-    font-size: 20px;
-    text-align: center;
-    background-color:#83A858;
-    width: 100%;
-    margin: 0;
-  }
-
-.price {
-    color:#83A858;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 17px;
-  }
-
-.description {
-    color:rgb(158, 158, 158);
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 16px;
-  }
-
-.btn {
-    background-color:#83A858;
-    color:#ffffff;
-    font-family: 'Open Sans';
-    font-weight: 400;
-    font-size: 17px;
-    border-style: none;
-    padding: 5px 15px 5px 15px;
-    border-radius: 5px;
-  }
-
-.btn:hover {
-    background-color:rgb(214, 83, 127);
-    transition: 0.4s;
-  }
+#submit {
+  display: block;
+  margin: auto;
+  width: 10vw;
+  padding: 10px;
+  margin-top: 30px;
+}
 
 /* Features Section */
 #features {
-  padding: 20px;
   margin-top: 50px;
+  padding: 40px 20px 40px 150px;
   display: flex;
   flex-direction: column;
-  margin-left: 80px;
+  background-color: #E1FACB;
 }
 
 #featType {
@@ -186,33 +146,79 @@ a:hover {
   font-size: 16px;
 }
 
-/* E-mail Form */
-#form {
+/* Video Section */
+.titleSection {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 30px;
+  text-align: center;
+  color:rgb(158, 158, 158);
+  padding: 20px;
+}
+
+#video {
+  display: block;
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+/* Pricing Section */
+#pricing {
+  background-color: #E1FACB;
+  padding: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.product {
   display: flex;
   flex-direction: column;
-  margin-top: 30px;
+  align-items: center;
+  text-align: justify;
+  border: 2px solid #83A858;
+  margin: 30px;
+  padding-bottom: 30px;
 }
 
-#email {
-  border: none;
-  border-radius: 5px;
-  background-color:#BCE295;
-  display: block;
-  margin: auto;
-  width: 20vw;
-  padding: 15px;
-  width: 40vw;
-  outline: none;
+.type {
+  background-color:#83A858;
 }
 
-::placeholder {
-  color: #ffffff;
+#avocadoSize {
+  color:#ffffff;
+  font-family: 'Kanit';
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
 }
 
-#submit {
-  display: block;
-  margin: auto;
-  width: 10vw;
-  padding: 10px;
-  margin-top: 30px;
+.price {
+  color:#83A858;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 900;
+  font-size: 25x;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.description {
+  color:rgb(158, 158, 158);
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 16px;
+  padding: 0px 30px 20px 30px;
+}
+
+.btn {
+  background-color:#83A858;
+  color:#ffffff;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 17px;
+  border-style: none;
+  padding: 5px 15px 5px 15px;
+}
+
+.btn:hover {
+  background-color: #5F832A;
+  transition: 0.4s;
 }
