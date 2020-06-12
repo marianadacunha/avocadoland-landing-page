@@ -183,6 +183,8 @@ a:hover {
 
 .type {
   background-color:#83A858;
+  display: flex;    
+  width:100%
 }
 
 .avocadoSize {
@@ -190,7 +192,8 @@ a:hover {
   font-family: 'Kanit';
   font-weight: 400;
   font-size: 20px;
-  text-align: center;
+  display: block;
+  margin: auto;
 }
 
 .price {
@@ -220,6 +223,7 @@ a:hover {
   border-style: none;
   border-radius: 5px;
   padding: 5px 15px 5px 15px;
+  margin: 10px 0px 30px 0px;
 }
 
 .btn:hover {
