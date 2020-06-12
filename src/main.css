@@ -93,7 +93,7 @@ a:hover {
 }
 
 ::placeholder {
-  color: #ffffff;
+  color:#5C8126;
 }
 
 #submit {
@@ -107,10 +107,11 @@ a:hover {
 
 /* Features Section */
 #features {
-  margin-top: 50px;
-  padding: 40px 20px 40px 150px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  margin-top: 50px;
   background-color: #E1FACB;
 }
 
@@ -122,6 +123,15 @@ a:hover {
 #premiumMaterials, #fastShipping, #qualityAssurance {
   display: flex;
   flex-direction: row;
+  max-width: 50vw;
+}
+
+#premiumMaterials {
+  margin-top: 30px;
+}
+
+#qualityAssurance {
+  margin-bottom: 30px;
 }
 
 .icon {
@@ -145,6 +155,8 @@ a:hover {
   font-family: 'Open Sans';
   font-weight: 300;
   font-size: 16px;
+  text-align: justify;
+  margin: 0;
 }
 
 /* Video Section */
