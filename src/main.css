@@ -3,74 +3,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700;900&display=swap');
 
 body {
-    margin: 0;
-    background-color: #ffffff;
+  margin: 0;
+  background-color: #ffffff;
 }
 
 /* Navigation Bar */
 #header-img {
-    display: flex;
-    justify-content: flex-start;
-    vertical-align: middle;
-    height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: middle;
+  height: 10vh;
 }
 
 .logo {
-    display: flex;
-    justify-content: flex-start;
-    vertical-align: middle;
-    font-family: 'Source Code Pro', monospace;
-    font-size: 30px;
-    font-weight: 900;
-    color:#ffffff;
-    margin: 0;
-    padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  vertical-align: middle;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 30px;
+  font-weight: 900;
+  color:#ffffff;
+  margin: 0;
+  padding: 10px;
 }
 
 #header {
-    position: fixed;
-    background-color:#83A858;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 100%;
-    height: 10vh;
+  position: fixed;
+  background-color:#83A858;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  height: 10vh;
 }
 
 #nav-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;    
-    width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;    
+  width: 80vw;
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 80vw;
 }
 
 li {
-    list-style: none;
-    padding-left: 40px;
-    padding-right: 40px;
+  list-style: none;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 a {
-    text-decoration: none;
-    color:#ffffff;
-    font-family: 'Kanit';
-    font-weight: 300;
+  text-decoration: none;
+  color:#ffffff;
+  font-family: 'Kanit';
+  font-weight: 300;
 }
 
 a:hover {
-    color: #5C8126;
-    transition: 0.4s;
+  color: #5C8126;
+  transition: 0.4s;
 }
 
 /* Banner Photo */
 .banner {
-    width: 100%;
+  width: 100%;
 }
 
 /* E-mail Form */
@@ -102,6 +102,7 @@ a:hover {
   width: 10vw;
   padding: 10px;
   margin-top: 30px;
+  border-radius: 5px;
 }
 
 /* Features Section */
@@ -175,30 +176,16 @@ a:hover {
   align-items: center;
   text-align: justify;
   border: 2px solid #83A858;
+  border-radius: 10px;
   margin: 30px;
-  padding-bottom: 30px;
   width: 40vw;
 }
 
-#small {
+.type {
   background-color:#83A858;
-  padding-left: 103px;
-  padding-right: 102px;
 }
 
-#medium {
-  background-color:#83A858;
-  padding-left: 91px;
-  padding-right: 91px;
-}
-
-#big {
-  background-color:#83A858;
-  padding-left: 112px;
-  padding-right: 113px;
-}
-
-#avocadoSize {
+.avocadoSize {
   color:#ffffff;
   font-family: 'Kanit';
   font-weight: 400;
@@ -211,6 +198,7 @@ a:hover {
   font-family: 'Source Code Pro', monospace;
   font-weight: 900;
   font-size: 25x;
+  text-align: center;
   margin: 0;
   padding-top: 20px;
 }
@@ -220,8 +208,7 @@ a:hover {
   font-family: 'Open Sans';
   font-weight: 300;
   font-size: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0px 20px 0px 20px;
 }
 
 .btn {
@@ -231,6 +218,7 @@ a:hover {
   font-weight: 400;
   font-size: 17px;
   border-style: none;
+  border-radius: 5px;
   padding: 5px 15px 5px 15px;
 }
 
