@@ -172,6 +172,14 @@ a:hover {
   display: block;
   margin: auto;
   padding-bottom: 60px;
+  width: 1000px;
+  height: 600px;
+}
+
+@media(max-width: 1000px) {
+  #video {
+    max-width: 90vw;
+  }
 }
 
 /* Pricing Section */
