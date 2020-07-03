@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: flex-start;
   vertical-align: middle;
+  align-items: center;
   height: 10vh;
 }
 
