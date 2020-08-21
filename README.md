@@ -6,11 +6,11 @@ Repository for the code of a landing page, as proposed by FreeCodeAcademy.</br>
 
 This page was build using HTML and CSS, only.
 
-### Objective
+# Objective
 
 Build a page that is functionally similar to this <a href="https://codepen.io/freeCodeCamp/full/RKRbwL">this</a>.</br>
 
-### Preview
+# Preview
 
 You can see the live site clicking <a href="https://marianadacunha.github.io/avocadoland-landing-page/">here</a>.</br>
 
