@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -71,13 +75,9 @@ a:hover {
   transition: 0.4s;
 }
 
-@media(max-width:400px) {
-  
-}
-
 /* Banner Photo */
 .banner {
-  width: 100%;
+  width: 100vw;
 }
 
 /* E-mail Form */
@@ -203,21 +203,20 @@ a:hover {
   align-items: center;
   text-align: justify;
   border: 2px solid #83A858;
-  border-radius: 10px;
   margin: 30px;
   width: 40vw;
+  transition: 1s;
 }
 
 .product:hover {
   background-color: #cbf0a1;
-  transition: 1.5s;
 }
 
 .type {
   background-color:#83A858;
   display: flex;    
   width:100%;
-  padding: 10px 0px 10px 0px;
+  padding: 15px 0px 15px 0px;
 }
 
 .avocadoSize {
@@ -251,15 +250,45 @@ a:hover {
   background-color:#83A858;
   color:#ffffff;
   font-family: 'Open Sans';
-  font-weight: 400;
+  font-weight: 700;
   font-size: 17px;
   border-style: none;
   border-radius: 5px;
   padding: 5px 15px 5px 15px;
   margin: 10px 0px 30px 0px;
+  text-transform: uppercase;
 }
 
 .btn:hover {
   background-color: #5F832A;
   transition: 0.4s;
+}
+
+@media (max-width: 900px) {
+  
+  #premiumMaterials, #fastShipping, #qualityAssurance {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+  }
+  
+  #premiumMaterials {
+    margin-top: 20px;
+  }
+  
+  #qualityAssurance {
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    width: 18vw;
+  }
+  
+  #featIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
 }
