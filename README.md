@@ -14,4 +14,4 @@ Build a page that is functionally similar to this <a href="https://codepen.io/fr
 
 You can see the live site clicking <a href="https://marianadacunha.github.io/avocadoland-landing-page/">here</a>.</br>
 
-![Screenshot](https://i.ibb.co/9g2KrZr/image.png)
+![Screenshot](https://github.com/marianadacunha/avocadoland-landing-page/blob/master/docs/screenshot.png?raw=true)
